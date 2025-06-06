@@ -19,11 +19,17 @@ h4{
    font-size: 20px;
    color: rgb(15, 92, 92);
    text-align: center;
+   margin-top: 2%;
 }
 .h4{
    font-size: 22px;
    color: rgb(139, 44, 183);
    margin-top: 3%;
+}
+h5{
+   font-size: 20px;
+   color: orange;
+   
 }
 .p{
    font-size: 26px;
@@ -158,4 +164,7 @@ ol{
 }
 .td{
    font-size: 18px;
+}
+.title{
+   padding: 0 5%;
 }

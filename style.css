@@ -615,3 +615,7 @@ button { margin-top: 10px; }
 .word-card{
   cursor: pointer;
 }
+/* Icons */
+.icone{
+   width: 26px;
+}

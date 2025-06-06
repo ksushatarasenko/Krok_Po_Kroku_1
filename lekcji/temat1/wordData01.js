@@ -73,42 +73,79 @@ const wordData = {
         "audio": "./audioSlowa1/sympatyczny.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/sympatyczny"
     },
-    "ambitny": {
-        "word": "ambitny",
-        "translation": "амбициозный",
-        "image": "https://cdn1.e-polish.eu/4e8b0fa7/knq4mdulk6l9jvyr/ambitny.jpeg",
-        "sentence": "Ona jest bardzo ambitna - chce zostać prezesem banku.",
-        "p1": "прилагательное, мужской род",
-        "audio": "./audioSlowa1/ambitny.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/ambitny"
+    "uprzejmy": {
+        "word": "uprzejmy",
+        "translation": "вежливый",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/ggxpkqv2l6ep73yu/uprzejmy.jpeg",
+        "sentence": "Będący przejawem tego, że ktoś zachowuje się zgodnie z ogólnie przyjętymi zasadami dobrego wychowania i okazuje chęć pomocy.",
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/uprzejmy.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/uprzejmy"
     },
-    "ambitny": {
-        "word": "ambitny",
-        "translation": "амбициозный",
-        "image": "https://cdn1.e-polish.eu/4e8b0fa7/knq4mdulk6l9jvyr/ambitny.jpeg",
-        "sentence": "Ona jest bardzo ambitna - chce zostać prezesem banku.",
-        "p1": "прилагательное, мужской род",
-        "audio": "./audioSlowa1/ambitny.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/ambitny"
+    "tchórzliwy": {
+        "word": "tchórzliwy",
+        "translation": "трусливый",
+        "image": "https://dubbingpedia.pl/w/images/thumb/4/4b/Chojrak_-_tch%C3%B3rzliwy_pies.jpg/300px-Chojrak_-_tch%C3%B3rzliwy_pies.jpg",
+        "sentence": "Osoba lub coś, co jest pozbawione odwagi, nieśmiałe i łatwo się boi",
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/tchórzliwy.mp3",
+        "link": ""
     },
-    "ambitny": {
-        "word": "ambitny",
-        "translation": "амбициозный",
-        "image": "https://cdn1.e-polish.eu/4e8b0fa7/knq4mdulk6l9jvyr/ambitny.jpeg",
-        "sentence": "Ona jest bardzo ambitna - chce zostać prezesem banku.",
-        "p1": "прилагательное, мужской род",
-        "audio": "./audioSlowa1/ambitny.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/ambitny"
+    "roztargniony": {
+        "word": "roztargniony",
+        "translation": "несосредоточенный",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPzIgmJmg7dawL72F8E4TnGWDJbIJO6HysGIV8kd0QGGOuAYFIXYEqiRAGAJiOTOqqhto&usqp=CAU",
+        "sentence": "Świadczący o tym, że ktoś ma trudności ze skupieniem uwagi na wykonywanych czynnościach; bez głowy, · gapiowski, · nieuważny, · rozkojarzony, · rozproszony, · roztrzepany",
+        "p1": "прилагательное",
+        "audio": "",
+        "link": ""
     },
-    "ambitny": {
-        "word": "ambitny",
-        "translation": "амбициозный",
-        "image": "https://cdn1.e-polish.eu/4e8b0fa7/knq4mdulk6l9jvyr/ambitny.jpeg",
-        "sentence": "Ona jest bardzo ambitna - chce zostać prezesem banku.",
-        "p1": "прилагательное, мужской род",
-        "audio": "./audioSlowa1/ambitny.mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/ambitny"
+    "niezdecydowany": {
+        "word": "niezdecydowany",
+        "translation": "нерешительный",
+        "image": "",
+        "sentence": "Przymiotnik, który opisuje osobę lub rzecz, która nie może zdecydować się na coś lub nie ma jeszcze jasnego zdania.",
+        "p1": "прилагательное",
+        "audio": "",
+        "link": ""
     },
+    "irytujący": {
+        "word": "irytujący",
+        "translation": "раздражающий",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/286lq38h4olfscsb/irytujacy.jpeg",
+        "sentence": '"Irytujący" po polsku oznacza "denerwujący", "wkurzający", "złościący". To słowo opisuje coś, co powoduje frustrację, gniew, lub uczucie bycia zirytowanym. ',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/irytujący.mp3",
+        "link": ""
+    },
+    "zarozumiały": {
+        "word": "zarozumiały",
+        "translation": "высокомерный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/69ks0dg9qdwthz5d/zarozumialy_1.jpeg",
+        "sentence": '"Zarozumiały" w języku polskim oznacza "przesadnie dumny", "zbyt pewny siebie", "arrogant". Oznacza, że ktoś uważa siebie za lepszego od innych i jest zbyt dumny ze swoich osiągnięć lub umiejętności. Synonimami "zarozumiały" są m.in. "próżny", "bufoniasty", "nadęty", "wyniosły", "pyszny". ',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/zarozumiały.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/zarozumia%C5%82y"
+    },
+    "niechętne rozmawia": {
+        "word": "niechętne rozmawia",
+        "translation": "неохотно разговаривает",
+        "image": "",
+        "sentence": "Oznacza, że ktoś coś robi z oporem, bez chęci, „od niechcenia”. Gdy mówimy „niechętnie rozmawia”, mamy na myśli, że dana osoba rozmawia, ale zrobi to niechętnie",
+        "p1": "przysłówek",
+        "audio": "",
+        "link": "https://translate.google.com/?sl=pl&tl=ru&text=niech%C4%99tne%20rozmawia&op=translate"
+    },
+    "kontrowersyjny": {
+        "word": "kontrowersyjny",
+        "translation": "противоречивый",
+        "image": "https://i1.kwejk.pl/k/obrazki/2020/06/e5HC3pgVfArg7syR.jpg",
+        "sentence": '"Kontrowersyjny" znaczy "spowodować spór, debatę lub dyskusję, zwłaszcza publiczną, z wyraźną różnicą zdań". To słowo jest używane do opisania czegoś lub kogoś, co budzi silne, często przeciwstawne reakcje, np. "kontrowersyjny polityk". ',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/kontrowersyjny.mp3",
+        "link": ""
+    },
+
 
 };
 
