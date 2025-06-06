@@ -145,8 +145,69 @@ const wordData = {
         "audio": "./audioSlowa1/kontrowersyjny.mp3",
         "link": ""
     },
-
-
+    "krytyczny": {
+        "word": "krytyczny",
+        "translation": "критический",
+        "image": "https://img10.dmty.pl//uploads/1251803647_by_gaworinho_600.jpg",
+        "sentence": '„Krytyczny” (synonimy: „surowy”, „oceniający”) oznacza osobę, która wnikliwie i często negatywnie ocenia czyjeś działania lub zachowania.',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/krytyczny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/krytyczny"
+    },
+    "nieuczciwy": {
+        "word": "nieuczciwy",
+        "translation": "нечестный",
+        "image": "https://img1.dmty.pl//uploads/201105/1494590336_ayci5v_600.jpg",
+        "sentence": 'Nieuczciwy (synonimy: „podstępny”, „nieszczery”) oznacza osobę, która postępuje w sposób nieuczciwy, oszukuje lub ukrywa prawdę. ',
+        "p1": "прилагательное",
+        "audio": "",
+        "link": "https://pl.wiktionary.org/wiki/nieuczciwy"
+    },
+    "niepunktualny": {
+        "word": "niepunktualny",
+        "translation": "непунктуальный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/h6hb0luatji1gnzx/niepunktualny.jpeg",
+        "sentence": '"Kontrowersyjny" znaczy "spowodować spór, debatę lub dyskusję, zwłaszcza publiczną, z wyraźną różnicą zdań". To słowo jest używane do opisania czegoś lub kogoś, co budzi silne, często przeciwstawne reakcje, np. "kontrowersyjny polityk". ',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/niepunktualny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/niepunktualny"
+    },
+    "tolerancyjny": {
+        "word": "tolerancyjny",
+        "translation": "толерантный",
+        "image": "https://samequizy.pl/wp-content/uploads/2016/04/filing_images_29e593808a90-2.jpg",
+        "sentence": 'Tolerancyjny (synonimy: „wyrozumiały”, „otwarty”) oznacza osobę, która akceptuje różnice między ludźmi i jest życzliwa wobec odmiennych poglądów.',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/tolerancyjny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/tolerancyjny"
+    },
+    "punktualny": {
+        "word": "punktualny",
+        "translation": "пунктуальный",
+        "image": "https://cdn1.e-polish.eu/709e371d/fr2fxf1x70bk1sju/punktualny.png",
+        "sentence": 'Punktualny (synonimy: „sumienny”, „terminowy”) oznacza osobę, która zawsze przychodzi na czas i dotrzymuje ustalonych terminów.',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/punktualny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/punktualny"
+    },
+    "odpowiedzialny": {
+        "word": "odpowiedzialny",
+        "translation": "ответственный",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/geq29634qrf4iokt/odpowiedzialny.jpeg",
+        "sentence": 'Odpowiedzialny (synonimy: „solidny”, „sumienny”) oznacza osobę, która wykonuje powierzone jej zadania starannie i bierze odpowiedzialność za swoje działania.',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/odpowiedzialny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/odpowiedzialny"
+    },
+    "dynamiczny": {
+        "word": "dynamiczny",
+        "translation": "динамический",
+        "image": "https://cdn1.e-polish.eu/4e8b0fa7/9s123at2046zhtvs/dynamiczny.jpeg",
+        "sentence": 'Dynamiczny (synonimy: „energiczny”, „aktywny”) oznacza osobę pełną energii, szybko podejmującą działania i łatwo dostosowującą się do zmian.',
+        "p1": "прилагательное",
+        "audio": "./audioSlowa1/dynamiczny.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dynamiczny"
+    },
 };
 
 
