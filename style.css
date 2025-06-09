@@ -449,6 +449,9 @@ select {
    background-color: #f8d7da; /* красный */
 }
 /* end */
+ol,ul{
+   line-height: 1.5;
+}
 li{
    font-size: 18px;
 }
