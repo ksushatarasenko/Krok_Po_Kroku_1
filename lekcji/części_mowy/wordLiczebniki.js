@@ -144,41 +144,41 @@ const wordData = {
          "audio": "./audioSlowa1/liczebniki/szesnascie.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/szesnaście"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "siedemnaście": {
+        "word": "siedemnaście",
+        "translation": "17",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "TKuba ma siedemnaście miesięcy.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/siedemnascie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/siedemnaście"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "osiemnaście": {
+        "word": "osiemnaście",
+        "translation": "18",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Pracuję tutaj osiemnaście lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/osiemnascie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/osiemnaście"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "dziewiętnaście": {
+        "word": "dziewiętnaście",
+        "translation": "19",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "To jest mieszkanie numer dziewiętnaście.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/dziewietnascie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dziewiętnaście"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "dwadzieścia": {
+        "word": "dwadzieścia",
+        "translation": "20",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Magda ma dwadzieścia lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/dwadziescia.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dwadzieścia"
     },
 
 
@@ -209,68 +209,203 @@ const wordData = {
          "audio": "./audioSlowa1/liczebniki/dwadziescia_trzy.mp3",
         "link": "https://slovar.e-polish.eu/ru/slovo/dwadzieścia+trzy"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "dwadzieścia cztery": {
+        "word": "dwadzieścia cztery",
+        "translation": "24",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "dwadzieścia cztery",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/dwadzieścia_cztery.mp3",
+        "link": ""
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "dwadzieścia pięć": {
+        "word": "dwadzieścia pięć",
+        "translation": "25",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/dwadzieścia_pięć.mp3",
+        "link": ""
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "trzydzieści": {
+        "word": "trzydzieści",
+        "translation": "30",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Gosia ma trzydzieści lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/trzydziesci.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/trzydzie%C5%9Bci"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "czterdzieści": {
+        "word": "czterdzieści",
+        "translation": "40",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Stanisław ma czterdzieści lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/czterdziesci.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/czterdzieści"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "pięćdziesiąt": {
+        "word": "pięćdziesiąt",
+        "translation": "50",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Czy Alicja ma pięćdziesiąt lat?",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/piecdziesiat.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/pięćdziesiąt"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "sześćdziesiąt": {
+        "word": "sześćdziesiąt",
+        "translation": "60",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Moja mama ma sześćdziesiąt lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/szescdziesiat.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/sześćdziesiąt"
     },
-    "jeden": {
-        "word": "jeden",
-        "translation": "1",
+    "siedemdziesiąt": {
+        "word": "siedemdziesiąt",
+        "translation": "70",
         "image": "",
-        "sentence": "Tam jest jeden student.",
+        "sentence": "Mój tato ma siedemdziesiąt lat.",
         "p1": "имя числительное",
-         "audio": "./audioSlowa1/liczebniki/jeden (1).mp3",
-        "link": "https://slovar.e-polish.eu/ru/slovo/jeden"
+         "audio": "./audioSlowa1/liczebniki/siedemdziesiat.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/siedemdziesiąt"
+    },
+     "osiemdziesiąt": {
+        "word": "osiemdziesiąt",
+        "translation": "80",
+        "image": "",
+        "sentence": "Pan Adam ma osiemdziesiąt lat.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/osiemdziesiat.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/osiemdziesiąt"
+    },
+     "dziewięćdziesiąt": {
+        "word": "dziewięćdziesiąt",
+        "translation": "90",
+        "image": "",
+        "sentence": "Mój dziadek ma dziewięćdziesiąt lat.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/dziewiecdziesiat.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dziewięćdziesiąt"
+    },
+     "sto": {
+        "word": "sto",
+        "translation": "100",
+        "image": "",
+        "sentence": "Czy twoja babcia ma sto lat?",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki//sto.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/sto"
+    },
+     "sto jeden": {
+        "word": "sto jeden",
+        "translation": "101",
+        "image": "",
+        "sentence": "W bibliotece było sto jeden książek.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/sto_jeden.mp3",
+        "link": ""
+    },
+     "sto jedenaście": {
+        "word": "sto jedenaście",
+        "translation": "111",
+        "image": "",
+        "sentence": "Na koncercie było sto jedenaście osób.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/sto_jedenaście.mp3",
+        "link": ""
+    },
+     "sto dwadzieścia": {
+        "word": "sto dwadzieścia",
+        "translation": "120",
+        "image": "",
+        "sentence": "Samochód jechał sto dwadzieścia kilometrów na godzinę.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/sto_dwadzieścia.mp3",
+        "link": ""
+    },
+     "dwieście": {
+        "word": "dwieście",
+        "translation": "200",
+        "image": "",
+        "sentence": "Ta sukienka kosztuje dwieście złotych.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/dwiescie.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dwie%C5%9Bcie"
+    },
+     "trzysta": {
+        "word": "trzysta",
+        "translation": "300",
+        "image": "",
+        "sentence": "Kasia zgubiła trzysta złotych.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/trzysta.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/trzysta"
+    },
+     "czterysta": {
+        "word": "czterysta",
+        "translation": "400",
+        "image": "",
+        "sentence": "Czy możesz mi pożyczyć czterysta złotych?",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/czterysta.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/czterysta"
+    },
+     "pięćset": {
+        "word": "pięćset",
+        "translation": "500",
+        "image": "",
+        "sentence": "Czy możesz mi pożyczyć pięćset złotych?",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/piecset.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/pięćset"
+    },
+     "sześćset": {
+        "word": "sześćset",
+        "translation": "600",
+        "image": "",
+        "sentence": "Marek zarobił dziś sześćset złotych.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/szescset.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/sześćset"
+    },
+     "siedemset": {
+        "word": "siedemset",
+        "translation": "700",
+        "image": "",
+        "sentence": "Ten zegarek kosztuje siedemset złotych.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/siedemset.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/siedemset"
+    },
+     "osiemset": {
+        "word": "osiemset",
+        "translation": "800",
+        "image": "",
+        "sentence": "Wygrałam osiemset złotych!",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/osiemset.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/osiemset"
+    },
+    "dziewięćset": {
+        "word": "dziewięćset",
+        "translation": "900",
+        "image": "",
+        "sentence": "Czy dziewięćset euro to dużo?",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/dziewiecset.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/dziewięćset"
+    },
+    "tysiąc": {
+        "word": "tysiąc",
+        "translation": "1000",
+        "image": "",
+        "sentence": "Alina znalazła tysiąc złotych.",
+        "p1": "имя числительное",
+         "audio": "./audioSlowa1/liczebniki/tysiac.mp3",
+        "link": "https://slovar.e-polish.eu/ru/slovo/tysiąc"
     },
 
 
