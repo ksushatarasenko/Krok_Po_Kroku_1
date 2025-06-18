@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temat0_1</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <h1>Gramatyka języka Polskiego</h1>
+            <h2>Temat 0 - Proszę powtórzyć!</h2>
+            <h3>Lekcja 01 - Gramatyka</h3>
+            
+            
+            <!-- 1 -->
+            <div class="blockZadanie">
+                <h3><img src="../../ikones/czytac.png" alt="czytac" class="icone"> расшифровка терминов грамматики польского языка</h3>
+                <div>
+                    <h4>🔤 Dźwięki / Звуки</h4>
+                    <ul class="left">
+                        <li><b>Samogłoska</b> – Гласная</li>
+                        <li><b>Spółgłoska</b> – Согласная</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>🔢 Liczba / Число</h4>
+                    <ul class="left">
+                        <li><b>Liczba pojedyncza</b> – Единственное число</li>
+                        <li><b>Liczba mnoga</b> – Множественное число</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>🧑‍🏫 Rodzaj / Род</h4>
+                    <ul class="left">
+                        <li><b>Rodzaj męski</b> – Мужской род</li>
+                        <li><b>Rodzaj żeński</b> – Женский род</li>
+                        <li><b>Rodzaj nijaki</b> – Средний род</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>🧠 Części mowy / Части речи</h4>
+                    <ul class="left">
+                        <li><b>Czasownik</b> – Глагол</li>
+                        <li><b>Bezokolicznik</b> – Инфинитив</li>
+                        <li><b>Rzeczownik</b>  – Существительное</li>
+                        <li><b>Przymiotnik</b> – Прилагательное</li>
+                        <li><b>Przysłówek</b> – Наречие</li>
+                        <li><b>Zaimek</b> – Местоимение</li>
+                        <li><b>Przyimek</b> – Предлог</li>
+                        <li><b>Liczebnik</b> – Числительное</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>📦 Przypadki / Падежи</h4>
+                    <ul class="left">
+                        <li><b>przypadek </b> – падеж (общий термин)</li>
+                        <li><b>mianownik </b> – именительный падеж</li>
+                        <li><b>dopełniacz</b>  – родительный падеж</li>
+                        <li><b>celownik</b> – дательный падеж</li>
+                        <li><b>biernik</b> – винительный падеж</li>
+                        <li><b>narzędnik</b> – творительный падеж</li>
+                        <li><b>miejscownik</b> – предложный падеж</li>
+                        <li><b>wołacz</b> – вательный падеж</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>⏳ Czasy / Время (в глаголах)</h4>
+                    <ul class="left">
+                        <li><b>czas przeszły </b> — прошедшее время</li>
+                        <li><b>czas teraźniejszy</b>  — настоящее время</li>
+                        <li><b>czas przyszły</b> — будущее время</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end 1 -->
+
+
+            <!-- Универсальный модальный блок (один на всю страницу): -->
+            <div id="popupOverlay" class="info-overlay" onclick="hidePopup()">
+                <div class="info-box" onclick="event.stopPropagation();">
+                    <p><strong id="popupWord"></strong> — <strong id="popupTranslation"></strong></p>
+                    <p id="popupDetails"></p>
+                    <p><em id="popupSentence"></em></p>
+                    <img id="popupImage" src="" />
+                    <!-- ✅ ЭТО И ЕСТЬ ПРАВИЛЬНАЯ ССЫЛКА -->
+                    <p><a id="popupLink" href="" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <audio id="popupAudio"></audio>
+            </div>
+            <!-- end  Универсальный модальный блок-->
+
+
+        </main>
+    </div>
+    <script src="./../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="./wordData01.js"></script>
+</body>
+
+</html>

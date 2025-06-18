@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liczebniki</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>🔢 Liczebnik – Числительное</h1>
+            <p class="text"><b>Liczebniki</b> — это слова, обозначающие <b>количество, порядок</b> или <b>счёт</b>. Они
+                склоняются, согласуются с существительными и бывают разных типов.</p>
+            <h3><a
+                    href="https://quizlet.com/pl/819234796/hurra-po-polsku-2-lekcja-1-osobowosc-flash-cards/?i=4wzil5&x=1jqt">Słownictwo
+                    nowe >></a></h3>
+            <!--  Виды числительных: -->
+            <div class="blockZadanie">
+                <h3>🧩 Виды числительных:</h3>
+                <table>
+                    <tr>
+                        <th>Тип числительного</th>
+                        <th>Польский термин</th>
+                        <th>Примеры</th>
+                        <th>Перевод</th>
+                    </tr>
+                    <tr>
+                        <td><b>Количественные</b></td>
+                        <td><a href="#główne"><b>liczebniki główne</b></a></td>
+                        <td>jeden, dwa, trzy</td>
+                        <td>один, два, три</td>
+                    </tr>
+                    <tr>
+                        <td><b>Порядковые</b></td>
+                        <td><b>liczebniki porządkowe</b></td>
+                        <td>jeden, dwa, trzy</td>
+                        <td>один, два, три</td>
+                    </tr>
+                    <tr>
+                        <td><b>Дробные</b></td>
+                        <td><b>liczebniki ułamkowe</b></td>
+                        <td>pół, jedna druga</td>
+                        <td>пол, одна вторая</td>
+                    </tr>
+                    <tr>
+                        <td><b>Собирательные</b></td>
+                        <td><b>liczebniki zbiorowe</b></td>
+                        <td>dwoje, troje</td>
+                        <td>двое, трое</td>
+                    </tr>
+                    <tr>
+                        <td><b>Неопределённые</b></td>
+                        <td><b>liczebniki nieokreślone</b></td>
+                        <td>kilka, wiele</td>
+                        <td>несколько, много</td>
+                    </tr>
+                    <tr>
+                        <td><b>Порядковые по счёту</b></td>
+                        <td><b>liczebniki mnożne</b></td>
+                        <td>podwójny, potrójny</td>
+                        <td>двойной, тройной</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end Виды числительных: -->
+
+            <!-- Количественные числительные (liczebniki główne) -->
+            <div class="blockZadanie" id="główne">
+                <h3 class="title"> 1️⃣ Количественные числительные (liczebniki główne)
+                </h3>
+                <table style="font-size: 17px;">
+                    <tr>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div class="word-card" data-id="jeden" onclick="showPopup(this)">jeden</strong></p>
+                            </div>
+                        </td>
+                        <td>11</td>
+                        <td>
+                            <div class="word-card" data-id="jedenaście" onclick="showPopup(this)">jedenaście</strong>
+                        </td>
+                        <td>21</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia jeden" onclick="showPopup(this)">dwadzieścia jeden</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <div class="word-card" data-id="dwa" onclick="showPopup(this)">dwa</strong>
+                        </td>
+                        <td>12</td>
+                        <td>
+                            <div class="word-card" data-id="dwanaście" onclick="showPopup(this)">dwanaście</strong>
+                        </td>
+                        <td>22</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia dwa" onclick="showPopup(this)">dwadzieścia dwa</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>3</td>
+                        <td>
+                            <div class="word-card" data-id="trzy" onclick="showPopup(this)">trzy</strong>
+                        </td>
+                        <td>13</td>
+                        <td>
+                            <div class="word-card" data-id="trzynaście" onclick="showPopup(this)">trzynaście</strong>
+                        </td>
+                        <td>23</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia trzy" onclick="showPopup(this)">dwadzieścia trzy</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td>
+                            <div class="word-card" data-id="cztery" onclick="showPopup(this)">cztery</strong>
+                        </td>
+                        <td>14</td>
+                        <td>
+                            <div class="word-card" data-id="czternaście" onclick="showPopup(this)">czternaście</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>5</td>
+                        <td>
+                            <div class="word-card" data-id="pięć" onclick="showPopup(this)">pięć</strong>
+                        </td>
+                        <td>15</td>
+                        <td>
+                            <div class="word-card" data-id="piętnaście" onclick="showPopup(this)">piętnaście</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>
+                            <div class="word-card" data-id="sześć" onclick="showPopup(this)">sześć</strong>
+                        </td>
+                        <td>16</td>
+                        <td>
+                            <div class="word-card" data-id="szesnaście" onclick="showPopup(this)">szesnaście</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>7</td>
+                        <td>
+                            <div class="word-card" data-id="siedem" onclick="showPopup(this)">siedem</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>8</td>
+                        <td>
+                            <div class="word-card" data-id="osiem" onclick="showPopup(this)">osiem</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>9</td>
+                        <td>
+                            <div class="word-card" data-id="dziewięć" onclick="showPopup(this)">dziewięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end Количественные числительные (liczebniki główne) -->
+            <!-- 4b -->
+            <div class="blockZadanie">
+                <h3 class="text"><img src="../../ikones/pisac.png" alt="" class="icone"> 4_B - Proszę znaleźć w
+                    powyższym zadaniu
+                    przymiotniki w liczbie mnogiej i podać ich formę w liczbie pojedynczej.</h3>
+                <div class="left">
+                    <p>krytyczni => <span class="blue">krytyczny</span></p>
+                    <p>nieuczciwi => ..........</p>
+                    <p>.......... => ..........</p>
+                </div>
+                <div class="flex">
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header">Odpowiedź</div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <ul class="left">
+                                    <li>krytyczni ⇒ krytyczny</li>
+                                    <li>nieuczciwi ⇒ nieuczciwy</li>
+                                    <li>niepunktualni ⇒ niepunktualny</li>
+                                    <li>tolerancyjni ⇒ tolerancyjny</li>
+                                    <li>nieetyczni ⇒ nieetyczny</li>
+                                    <li>prywatnych ⇒ prywatny</li>
+                                    <li>biurowych ⇒ biurowy</li>
+                                    <li>negatywne ⇒ negatywny</li>
+                                    <li>własnych ⇒ własny</li>
+                                    <li>takich ⇒ taki</li>
+                                    <li>różnych ⇒ różny</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 4b -->
+            <!-- 4c -->
+            <div class="blockZadanie">
+                <h3><img src="../../ikones/goworic1.png" alt="" class="icone"> 4_C - Proszę zrobić w grupie następującą
+                    ankietę. Jacy ludzie powinni być w pracy?</h3>
+                <div class="image">
+                    <img src="../../image/lekcja01/4_c.png" alt="" style="width: 95%;">
+                </div>
+                <div class="flex">
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header">Odpowiedź</div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <p>Z naszych ankiet wynika, że ludzie w pracy powinni być przede wszystkim uczciwi,
+                                    punktualni i odpowiedzialni.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 3c -->
+            <!-- 4d -->
+            <div class="blockZadanie">
+                <h3><img src="../../ikones/pisac.png" alt="" class="icone"> 4_d - Proszę przeczytać e-mail Anny do
+                    przyjaciółki, a następnie napisać odpowiedź w imieniu Gosi. Gosia jest niezadowolona ze stażu w
+                    banku. Proszę użyć maksymalnej liczby przymiotników pejoratywnych w mailu do Ani.</h3>
+                <div class="image">
+                    <img src="../../image/lekcja01/4_d.png" alt="">
+                </div>
+                <div class="flex">
+                    <div class="hint2-container" onclick="toggleHint2(this)">
+                        <div class="hint2-header">Odpowiedź</div>
+                        <div class="hint2-content">
+                            <div class="text">
+                                <h5> Podział zwrotów na oficjalne i nieoficjalne</h5>
+                                <div class="two">
+                                    <div>
+                                        <ul class="left">
+                                            <b>Oficjalne</b>
+                                            <li>Dzień dobry</li>
+                                            <li>Witam serdecznie</li>
+                                            <li>Szanowny Panie</li>
+                                            <li>Pani Mario</li>
+                                            <li>Z poważaniem</li>
+                                            <li>Serdecznie pozdrawiam</li>
+                                            <li>Liczę na pozytywną odpowiedź</li>
+                                            <li>Czy sprawy idą w dobrym kierunku?</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="left">
+                                            <b>Nieoficjalne</b>
+                                            <li>Kochana Gosiu (→ w mailu do Ani: „Kochana Aniu”)</li>
+                                            <li>Moja droga</li>
+                                            <li>Cześć</li>
+                                            <li>Droga Mario</li>
+                                            <li>Co słychać?</li>
+                                            <li>Co nowego?</li>
+                                            <li>Nie mogę doczekać się spotkania</li>
+                                            <li>Do zobaczenia wkrótce</li>
+                                            <li>Strasznie mnie to denerwuje</li>
+                                            <li>Denerwuje mnie ta sytuacja</li>
+                                            <li>Daj spokój</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="p22">Uwaga: Gosia jest niezadowolona ze stażu w banku – użyto maksymalnie dużo
+                                    przymiotników pejoratywnych.</p>
+                                <div class="image">
+                                    <img src="../../image/lekcja01/odpowiedź_4_d.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end 4d -->
+
+
+
+
+
+            <!-- Универсальный модальный блок (один на всю страницу): -->
+            <div id="popupOverlay" class="info-overlay" onclick="hidePopup()">
+                <div class="info-box" onclick="event.stopPropagation();">
+                    <p><strong id="popupWord"></strong> — <strong id="popupTranslation"></strong></p>
+                    <p id="popupDetails"></p>
+                    <p><em id="popupSentence"></em></p>
+                    <img id="popupImage" src="" />
+                    <!-- ✅ ЭТО И ЕСТЬ ПРАВИЛЬНАЯ ССЫЛКА -->
+                    <p><a id="popupLink" href="" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <audio id="popupAudio"></audio>
+            </div>
+            <!-- end  Универсальный модальный блок-->
+
+
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="./wordLiczebniki.js"></script>
+</body>
+
+</html>
