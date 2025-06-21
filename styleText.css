@@ -16,7 +16,7 @@ h3{
    text-align: center;
 }
 h4{
-   font-size: 18px;
+   font-size: 20px;
    color: rgb(7, 112, 112);
    text-align: center;
 }
@@ -28,7 +28,8 @@ h4{
 h5{
    font-size: 20px;
    color: orange;
-   
+   text-align: center;
+   margin-top: 2%;
 }
 .p{
    font-size: 26px;
