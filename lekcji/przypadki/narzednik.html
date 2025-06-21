@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narzędnik</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+
+
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>📘 Narzędnik liczby pojedynczej</h1>
+            <h2>V przypadek – Kim? Czym? Z kim? Z czym?</h2>
+            <h3><a href="#pojedynczej">NARZĘDNIK LICZBY POJEDYNCZEJ</a></h3>
+            <h3><a href="#mnoga">NARZĘDNIK LICZBY MNOGIEJ</a></h3>
+
+            <div class="blockZadanie" id="pojedynczej">
+                <h3>NARZĘDNIK LICZBY POJEDYNCZEJ</h3>
+                <div class="image" style="width: 74%;">
+                    <img src="./image/narzednik_l_pojed.png" alt="">
+                </div>
+                <div class="image" style="width: 100%;">
+                    <img src="./image/narzednik_l_pojed_2.png" alt="" style="width: 100%;">
+                </div>
+
+                <!--  Когда используется Narzędnik? -->
+                <h5>🔎 Когда используется Narzędnik?</h5>
+                <ul class="left">
+                    <li>
+                        <h4>✅ 1. После глаголов-связок:</h4>
+                        <p>Используется, чтобы сказать, <b>кем или чем кто-то является.</b></p>
+                        <p><b>Примеры:</b></p>
+                        <ul class="left">
+                            <li>Jestem nauczycielem. — Я (являюсь) учителем.</li>
+                            <li>Ona jest lekarką. — Она (является) врачом.</li>
+                            <li>On został dyrektorem. — Он стал директором.</li>
+                        </ul>
+                        <p>🔹 Часто сочетается с глаголами:</p>
+                        <ul class="left">
+                            <li><b>być</b> — быть</li>
+                            <li><b>zostać</b> — стать</li>
+                            <li><b>stać się</b> — становиться</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>✅ 2. После некоторых глаголов с «ся» (возвратных):</h4>
+                        <p>Narzędnik используется после глаголов, которые требуют дополнения «кем/чем», например:</p>
+                        <div class="two">
+                            <ul class="left">
+                                <li>interesować się — интересоваться</li>
+                                <li>opiekować się — заботиться</li>
+                                <li>kierować — управлять</li>
+                                <li>cieszyć się — радоваться</li>
+                            </ul>
+                            <ul class="left">
+                                <li>zajmować się — заниматься</li>
+                                <li>martwić się — переживать</li>
+                                <li>zmęczyć się — устать</li>
+                                <li>zachwycać się — восхищаться</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h4>✅ 3. Орудие действия (чем что-то делаешь):</h4>
+                        <ul class="left">
+                            <li>Piszę długopisem. — Пишу ручкой.</li>
+                            <li>Kroję nożem. — Режу ножом.</li>
+                            <li>Myję się mydłem. — Умываюсь мылом.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>✅ 4. Транспорт и средство передвижения:</h4>
+                        <ul class="left">
+                            <li>Jadę autobusem. — Еду на автобусе.</li>
+                            <li>Lecę samolotem. — Лечу на самолёте.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>✅ 5. После предлогов:</h4>
+                        <div class="two">
+                            <ul class="left">
+                                <li>z (с)</li>
+                                <li>między (между)</li>
+                                <li>pod (под)</li>
+                                <li>nad (над)</li>
+                            </ul>
+                            <ul class="left">
+                                <li>za (за)</li>
+                                <li>przed (перед)</li>
+                                <li>poza (вне)</li>
+                            </ul>
+                        </div>
+
+                    </li>
+                </ul>
+                <h4 class="red">⚠️ Важно:</h4>
+                <p><b>С выражением "To jest..." (Это есть...)</b> используется <b>именительный падеж</b>, а не творительный:</p>
+                <p>❌ To jest dobrym studentem.</p>
+                <p>✅ To jest dobry student.</p>
+                <p>Но:</p>
+                <p>✅ On jest dobrym studentem.</p>
+            </div>
+           
+            <!-- MNOGA -->
+            <div class="blockZadanie" id="mnoga">
+                <h3>📘 Narzędnik liczby mnogiej</h3>
+                <h4>V przypadek – Kim? Czym? Z kim? Z czym?</h4>
+                <div class="image" style="width: 84%;">
+                    <img src="./image/narzednik_l_mnoga.png" alt="">
+                </div>
+                <div class="image" style="width: 70%;">
+                    <img src="./image/nargednik_l_mnoga2.png"  style="width: 100%;">
+                </div>
+            </div>
+
+            <!-- Универсальный модальный блок (один на всю страницу): -->
+            <div id="popupOverlay" class="info-overlay" onclick="hidePopup()">
+                <div class="info-box" onclick="event.stopPropagation();">
+                    <p><strong id="popupWord"></strong> — <strong id="popupTranslation"></strong></p>
+                    <p id="popupDetails"></p>
+                    <p><em id="popupSentence"></em></p>
+                    <img id="popupImage" src="" />
+                    <!-- ✅ ЭТО И ЕСТЬ ПРАВИЛЬНАЯ ССЫЛКА -->
+                    <p><a id="popupLink" href="" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <audio id="popupAudio"></audio>
+            </div>
+            <!-- end  Универсальный модальный блок-->
+
+
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="./wordData01.js"></script>
+</body>
+
+</html>
