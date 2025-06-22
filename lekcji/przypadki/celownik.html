@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celownik</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>📘 Дательный падеж (Celownik) — l. poj.</h1>
+            <h2>III przypadek — Komu? Czemu?</h2>
+            <h3><a href="#pojedynczej">CELOWNIK LICZBY POJEDYNCZEJ</a></h3>
+            <h3><a href="#mnoga">CELOWNIK LICZBY MNOGIEJ</a></h3>
+
+            <div class="blockZadanie" id="pojedynczej">
+                <h3>CELOWNIK LICZBY POJEDYNCZEJ</h3>
+                <div class="image" style="width: 74%;">
+                    <img src="./image/celownik_l_pojed.png" alt="">
+                </div>
+                <div class="image" style="width: 100%;">
+                    <img src="./image/celownik_l_pojed2.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+           
+            <!-- MNOGA -->
+            <div class="blockZadanie" id="mnoga">
+                <h3>📘 Miejscownik liczby mnogiej</h3>
+                <h4>CELOWNIK LICZBY MNOGIEJ</h4>
+                <div class="image" style="width: 84%;">
+                    <img src="./image/celownik_l_mnoga.png" alt="">
+                </div>
+                <div class="image" style="width: 100%;">
+                    <img src="./image/celownik_l_mnoga2.png"  style="width: 100%;">
+                </div>
+            </div>
+
+            <!-- Универсальный модальный блок (один на всю страницу): -->
+            <div id="popupOverlay" class="info-overlay" onclick="hidePopup()">
+                <div class="info-box" onclick="event.stopPropagation();">
+                    <p><strong id="popupWord"></strong> — <strong id="popupTranslation"></strong></p>
+                    <p id="popupDetails"></p>
+                    <p><em id="popupSentence"></em></p>
+                    <img id="popupImage" src="" />
+                    <!-- ✅ ЭТО И ЕСТЬ ПРАВИЛЬНАЯ ССЫЛКА -->
+                    <p><a id="popupLink" href="" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <audio id="popupAudio"></audio>
+            </div>
+            <!-- end  Универсальный модальный блок-->
+
+
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="./wordData01.js"></script>
+</body>
+
+</html>

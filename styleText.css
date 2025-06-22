@@ -10,30 +10,32 @@ h2{
     font-size: 1.8em;
 }
 h3{
-   font-size: 24px; 
+   font-size: 26px; 
    margin-top: 1%;
    color: green;
    text-align: center;
 }
 h4{
-   font-size: 20px;
+   font-size: 24px;
    color: rgb(7, 112, 112);
    text-align: center;
 }
-.h4{
-   font-size: 22px;
-   color: rgb(139, 44, 183);
-   margin-top: 3%;
-}
+
 h5{
-   font-size: 20px;
+   font-size: 22px;
    color: orange;
    text-align: center;
    margin-top: 2%;
 }
+h6{
+   font-size: 20px;
+   color: rgb(0, 162, 255);
+   text-align: center;
+   margin-top: 2%;
+}
 .p{
-   font-size: 26px;
-   text-indent: 30px;
+   font-size: 20px;
+   text-indent: 35px;
    padding: 1%;
 }
 p{

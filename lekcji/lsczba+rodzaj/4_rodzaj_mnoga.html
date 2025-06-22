@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Род во множественном числе</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>📘 Глава 4: Род во множественном числе</h1>
+            <p class="text">👥 Rodzaj w liczbie mnogiej</p>
+            <div>
+                <h5><a href="#1">1. Rodzaj męskoosobowy</a></h5>
+                <h5><a href="#2">2. Rodzaj niemęskoosobowy</a></h5>
+                <h5><a href="#3">3. Важные особенности</a></h5>
+                <h5><a href="#4">4. Как быстро понять, что использовать?</a></h5>
+            </div>
+            <!-- start -->
+             <div class="blockZadanie">
+                <h3>📍 Что нужно знать?</h3>
+                <p class="p"><b>Во множественном числе</b> в польском языке нет привычного "мужской / женский / средний род".</p>
+                <p class="p">Вместо этого появляются <b>две новые грамматические категории рода</b>, которые влияют на <b>всё согласование</b> в предложении.</p>
+             </div>
+
+            <!-- 1. Rodzaj męskoosobowy -->
+            <div class="blockZadanie" id="1">
+                <h3>🧑‍🤝‍🧑 1. Rodzaj męskoosobowy</h3>
+                <p class="p">👉 Мужской одушевлённый род (во множественном числе)</p>
+                <p class="p">Используется, если <b>в группе есть хотя бы один мужчина</b> (или лицо мужского пола).</p>
+                <p><b>🔹 Примеры:</b></p>
+                <ul class="left">
+                    <li>chłopcy – мальчики</li>
+                    <li>ojcowie – отцы</li>
+                    <li>nauczyciele – учителя (мужчины)</li>
+                    <li>Jan i dzieci → oni (даже если детей больше!)</li>
+                </ul>
+                <p class="p"><b>📌 Характерные признаки:</b></p>
+                <ul class="left">
+                    <li>местоимение: <b>oni</b></li>
+                    <li>прилагательное: <b>dobrzy, mądrzy</b></li>
+                    <li>глагол (прош. вр.): <b>zrobili, byli</b></li>
+                    <li>вопросительное слово: <b>jacy?</b></li>
+                </ul>
+            </div>
+            <!-- 2. Rodzaj niemęskoosobowy -->
+            <div class="blockZadanie" id="2">
+                <h3>🐕‍🦺 2. Rodzaj niemęskoosobowy</h3>
+                <p class="p">👉 Немужской одушевлённый род (всё остальное)</p>
+                <p class="p"><b>Используется:</b></p>
+                <ul class="left">
+                    <li>для женщин</li>
+                    <li>для детей</li>
+                    <li>для животных</li>
+                    <li>для вещей</li>
+                    <li>для абстрактных понятий</li>
+                </ul>
+                <h6>🔹 Примеры:</h6>
+                <ul class="left">
+                    <li>kobiety – женщины</li>
+                    <li>dzieci – дети</li>
+                    <li>psy – собаки</li>
+                    <li>rzeczy – вещи</li>
+                    <li>książki – книги</li>
+                </ul>
+                <h6>📌 Характерные признаки:</h6>
+                <ul class="left">
+                    <li>местоимение: <b>one</b></li>
+                    <li>прилагательное: <b>dobre, ładne, złe</b></li>
+                    <li>глагол (прош. вр.): <b>zrobiły, były</b></li>
+                    <li>вопросительное слово: <b>jakie?</b></li>
+                </ul>
+            </div>
+            <!--  3. Важные особенности -->
+            <div class="blockZadanie" id="3">
+                <h3> ⚠️ Важные особенности</h3>
+                <div class="image">
+                    <img src="./image/img13.png" alt="img13">
+                </div>
+                
+                <ol class="left">
+                    <li>
+                        Если в группе есть хотя бы один мужчина, то используется męskoosobowy:
+                        <ul class="left">
+                            <li>Jan i dziewczyny → oni</li>
+                            <li>Tata i dzieci → oni</li>
+                            <li>Bracia i siostry → oni</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Женщины, животные, дети — всегда niemęskoosobowy:
+                        <ul class="left">
+                            <li>One są zmęczone.</li>
+                            <li>Dzieci były grzeczne.</li>
+                            <li>Te koty są ładne.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+            </div>
+            <!-- Советы по определению рода -->
+             <div class="blockZadanie" id="4">
+                <h3>🧠 4. Как быстро понять, что использовать?</h3>
+                <div class="image">
+                    <img src="./image/img14.png" alt="img14">
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+</body>
+
+</html>

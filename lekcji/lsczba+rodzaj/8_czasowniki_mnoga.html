@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czasowniki w liczbie mnogiej</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>📘 Глава 8: Глаголы во множественном числе</h1>
+            <p class="text">🗣️ Czasowniki w liczbie mnogiej</p>
+            <div>
+                <h5><a href="#1">1. Согласование по роду и числу в прошедшем времени</a></h5>
+                <h5><a href="#2">2. Как определить форму?</a></h5>
+                <h5><a href="#3">3. Поведение глаголов в других временах</a></h5>
+                <h5><a href="#4">4. Глаголы с местоимениями — различия во множественном числе</a></h5>
+            </div>
+            <!-- start -->
+             <div class="blockZadanie" id="1">
+                <h3>📍Почему это важно?</h3>
+                <p class="p">В польском языке:</p>
+                <ul class="left">
+                    <li>В <b>настоящем и будущем времени</b> глаголы согласуются <b>только по лицу и числу</b>.</li>
+                    <li>В <b>прошедшем и условном времени</b> глаголы согласуются <b>по числу и роду</b> (!!!)</li>
+                </ul>
+                <p class="p">Это значит, что:</p>
+                <ul class="left">
+                    <li><b>zrobili</b> и <b>zrobiły</b> — разные формы;</li>
+                    <li>Ты <b>не можешь просто сказать "byliśmy"</b> — важно <b>кто был:</b> мужчины или женщины, или предметы.</li>
+                </ul>
+            </div>
+
+            <!-- 1. Согласование по роду и числу в прошедшем времени -->
+            <div class="blockZadanie" id="1">
+                <h3>👥 1. Согласование по роду и числу в прошедшем времени</h3>
+                <p class="p">В <b>прошедшем времени (czas przeszły)</b> глаголы изменяются по:</p>
+                <ul class="left">
+                    <li><b>лицу</b> (1, 2, 3)</li>
+                    <li><b>числу</b> (jedna osoba / wiele osób)</li>
+                    <li><b>роду</b> (в единственном числе: męski, żeński, nijaki; во множественном: męskoosobowy / niemęskoosobowy)</b></li>
+                </ul>
+                <div class="image">
+                    <img src="./image/img38" alt="img38">
+                </div>
+                <div class="image">
+                    <img src="./image/img39" alt="img39">
+                </div>
+            </div>
+            <!-- 2. Как определить форму? -->
+            <div class="blockZadanie" id="2">
+                <h3>🧑‍🏫 2. Как определить форму?</h3>
+                <div class="image" style="width: 88%;">
+                    <img src="./image/img30.png" alt="img30">
+                </div>
+            </div>
+            <!-- 3. Поведение глаголов в других временах -->
+            <div class="blockZadanie" id="3">
+                <h3>📊 3. Таблица: обзор исключений и изменений</h3>
+                <div class="image" style="width: 80%;">
+                    <img src="./image/img40.png" alt="img40">
+                </div>
+                <div class="image" style="width: 90%;">
+                    <img src="./image/img41.png" alt="img41">
+                </div>                
+            </div>
+            <!-- 4. Глаголы с местоимениями — различия во множественном числе -->
+            <div class="blockZadanie" id="4">
+                <h3>🧠 4. Глаголы с местоимениями — различия во множественном числе</h3>
+                
+                <div class="image" style="width: 90%;">
+                    <img src="./image/img42.png" alt="img42">
+                </div>
+                <div class="image" style="width: 80%;">
+                    <img src="./image/img43.png" alt="img43">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+</body>
+
+</html>
