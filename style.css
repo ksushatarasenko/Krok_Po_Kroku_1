@@ -625,10 +625,10 @@ button { margin-top: 10px; }
 
 /* TABLE */
 table{
-   width: 90%;
+   width: 98%;
    margin: 2% auto;
    text-align: center;
-   font-size: 20px;
+   font-size: 18px;
    border: 1px solid black;
    padding: 0.5%;
    border-collapse: collapse;
@@ -636,6 +636,9 @@ table{
 td,th{
    border: 1px solid black;
    padding: 0.5%;
+}
+.temat{
+   width: 200px;
 }
 
 /* END TABLE */
@@ -662,3 +665,8 @@ td,th{
     #scrollTopBtn:hover {
       background-color: #555;
     }
+
+   /*  */
+   .audio{
+      cursor: pointer;
+   }

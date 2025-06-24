@@ -169,4 +169,7 @@ ol{
 }
 .title{
    padding: 0 5%;
+   font-size: 18px;
+   font-style: italic;
+   color: rgb(43, 165, 165);
 }
