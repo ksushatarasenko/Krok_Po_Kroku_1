@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liczebniki</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../styleText.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <ul class="ulhead">
+                <li class="li"><a href="../../index.html">Home</a></li>
+            </ul>
+        </header>
+        <main class="main">
+            <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+            <h1>🔢 Liczebnik – Числительное</h1>
+            <p class="text"><b>Liczebniki</b> — это слова, обозначающие <b>количество, порядок</b> или <b>счёт</b>. Они
+                склоняются, согласуются с существительными и бывают разных типов.</p>
+            <h3><a
+                    href="https://quizlet.com/pl/819234796/hurra-po-polsku-2-lekcja-1-osobowosc-flash-cards/?i=4wzil5&x=1jqt">Słownictwo
+                    nowe >></a></h3>
+            <!--  Виды числительных: -->
+            <div class="blockZadanie">
+                <h3>🧩 Виды числительных:</h3>
+                <table>
+                    <tr>
+                        <th>Тип числительного</th>
+                        <th>Польский термин</th>
+                        <th>Примеры</th>
+                        <th>Перевод</th>
+                    </tr>
+                    <tr>
+                        <td><b>Количественные</b></td>
+                        <td><a href="#główne"><b>liczebniki główne</b></a></td>
+                        <td>jeden, dwa, trzy</td>
+                        <td>один, два, три</td>
+                    </tr>
+                    <tr>
+                        <td><b>Порядковые</b></td>
+                        <td><a href="#porządkowe"><b>liczebniki porządkowe</b></a></td>
+                        <td>jeden, dwa, trzy</td>
+                        <td>один, два, три</td>
+                    </tr>
+                    <tr>
+                        <td><b>Дробные</b></td>
+                        <td><a href="#ułamkowe"><b>liczebniki ułamkowe</b></a></td>
+                        <td>pół, jedna druga</td>
+                        <td>пол, одна вторая</td>
+                    </tr>
+                    <tr>
+                        <td><b>Собирательные</b></td>
+                        <td><a href="#zbiorowe"><b>liczebniki zbiorowe</b></a></td>
+                        <td>dwoje, troje</td>
+                        <td>двое, трое</td>
+                    </tr>
+                    <tr>
+                        <td><b>Неопределённые</b></td>
+                        <td><a href="#nieokreślone"><b>liczebniki nieokreślone</b></a></td>
+                        <td>kilka, wiele</td>
+                        <td>несколько, много</td>
+                    </tr>
+                    <tr>
+                        <td><b>Порядковые по счёту</b></td>
+                        <td><b>liczebniki mnożne</b></td>
+                        <td>podwójny, potrójny</td>
+                        <td>двойной, тройной</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end Виды числительных: -->
+
+            <!-- Количественные числительные (liczebniki główne) -->
+            <div class="blockZadanie" id="główne">
+                <h3 class="title"> 1️⃣ Количественные числительные (liczebniki główne)
+                </h3>
+                <table style="font-size: 17px;">
+                    <tr>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                        <th>numer</th>
+                        <th>Liczbowy</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <div class="word-card" data-id="jeden" onclick="showPopup(this)">jeden</strong></p>
+                            </div>
+                        </td>
+                        <td>11</td>
+                        <td>
+                            <div class="word-card" data-id="jedenaście" onclick="showPopup(this)">jedenaście</strong>
+                        </td>
+                        <td>21</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia jeden" onclick="showPopup(this)">dwadzieścia
+                                jeden</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <div class="word-card" data-id="dwa" onclick="showPopup(this)">dwa</strong>
+                        </td>
+                        <td>12</td>
+                        <td>
+                            <div class="word-card" data-id="dwanaście" onclick="showPopup(this)">dwanaście</strong>
+                        </td>
+                        <td>22</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia dwa" onclick="showPopup(this)">dwadzieścia
+                                dwa</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <div class="word-card" data-id="trzy" onclick="showPopup(this)">trzy</strong>
+                        </td>
+                        <td>13</td>
+                        <td>
+                            <div class="word-card" data-id="trzynaście" onclick="showPopup(this)">trzynaście</strong>
+                        </td>
+                        <td>23</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia trzy" onclick="showPopup(this)">dwadzieścia
+                                trzy</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <div class="word-card" data-id="cztery" onclick="showPopup(this)">cztery</strong>
+                        </td>
+                        <td>14</td>
+                        <td>
+                            <div class="word-card" data-id="czternaście" onclick="showPopup(this)">czternaście</strong>
+                        </td>
+                        <td>24</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia cztery" onclick="showPopup(this)">dwadzieścia
+                                cztery</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <div class="word-card" data-id="pięć" onclick="showPopup(this)">pięć</strong>
+                        </td>
+                        <td>15</td>
+                        <td>
+                            <div class="word-card" data-id="piętnaście" onclick="showPopup(this)">piętnaście</strong>
+                        </td>
+                        <td>25</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia pięć" onclick="showPopup(this)">dwadzieścia
+                                pięć</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>
+                            <div class="word-card" data-id="sześć" onclick="showPopup(this)">sześć</strong>
+                        </td>
+                        <td>16</td>
+                        <td>
+                            <div class="word-card" data-id="szesnaście" onclick="showPopup(this)">szesnaście</strong>
+                        </td>
+                        <td>30</td>
+                        <td>
+                            <div class="word-card" data-id="trzydzieści" onclick="showPopup(this)">trzydzieści</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>
+                            <div class="word-card" data-id="siedem" onclick="showPopup(this)">siedem</strong>
+                        </td>
+                        <td>17</td>
+                        <td>
+                            <div class="word-card" data-id="siedemnaście" onclick="showPopup(this)">
+                                siedemnaście</strong>
+                        </td>
+                        <td>40</td>
+                        <td>
+                            <div class="word-card" data-id="czterdzieści" onclick="showPopup(this)">
+                                czterdzieści</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>
+                            <div class="word-card" data-id="osiem" onclick="showPopup(this)">osiem</strong>
+                        </td>
+                        <td>18</td>
+                        <td>
+                            <div class="word-card" data-id="osiemnaście" onclick="showPopup(this)">osiemnaście</strong>
+                        </td>
+                        <td>50</td>
+                        <td>
+                            <div class="word-card" data-id="pięćdziesiąt" onclick="showPopup(this)">
+                                pięćdziesiąt</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>
+                            <div class="word-card" data-id="dziewięć" onclick="showPopup(this)">dziewięć</strong>
+                        </td>
+                        <td>19</td>
+                        <td>
+                            <div class="word-card" data-id="dziewiętnaście" onclick="showPopup(this)">
+                                dziewiętnaście</strong>
+                        </td>
+                        <td>60</td>
+                        <td>
+                            <div class="word-card" data-id="sześćdziesiąt" onclick="showPopup(this)">
+                                sześćdziesiąt</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>
+                            <div class="word-card" data-id="dziesięć" onclick="showPopup(this)">dziesięć</strong>
+                        </td>
+                        <td>20</td>
+                        <td>
+                            <div class="word-card" data-id="dwadzieścia" onclick="showPopup(this)">dwadzieścia</strong>
+                        </td>
+                        <td>70</td>
+                        <td>
+                            <div class="word-card" data-id="siedemdziesiąt" onclick="showPopup(this)">
+                                siedemdziesiąt</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>80</td>
+                        <td>
+                            <div class="word-card" data-id="osiemdziesiąt" onclick="showPopup(this)">
+                                osiemdziesiąt</strong>
+                        </td>
+                        <td>90</td>
+                        <td>
+                            <div class="word-card" data-id="dziewięćdziesiąt" onclick="showPopup(this)">
+                                dziewięćdziesiąt</strong>
+                        </td>
+                        <td>100</td>
+                        <td>
+                            <div class="word-card" data-id="sto" onclick="showPopup(this)">sto</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>101</td>
+                        <td>
+                            <div class="word-card" data-id="sto jeden" onclick="showPopup(this)">sto jeden</strong>
+                        </td>
+                        <td>111</td>
+                        <td>
+                            <div class="word-card" data-id="sto jedenaście" onclick="showPopup(this)">sto
+                                jedenaście</strong>
+                        </td>
+                        <td>120</td>
+                        <td>
+                            <div class="word-card" data-id="sto dwadzieścia" onclick="showPopup(this)">sto
+                                dwadzieścia</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>200</td>
+                        <td>
+                            <div class="word-card" data-id="dwieście" onclick="showPopup(this)">dwieście</strong>
+                        </td>
+                        <td>300</td>
+                        <td>
+                            <div class="word-card" data-id="trzysta" onclick="showPopup(this)">trzysta</strong>
+                        </td>
+                        <td>400</td>
+                        <td>
+                            <div class="word-card" data-id="czterysta" onclick="showPopup(this)">czterysta</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>500</td>
+                        <td>
+                            <div class="word-card" data-id="pięćset" onclick="showPopup(this)">pięćset</strong>
+                        </td>
+                        <td>600</td>
+                        <td>
+                            <div class="word-card" data-id="sześćset" onclick="showPopup(this)">sześćset</strong>
+                        </td>
+                        <td>700</td>
+                        <td>
+                            <div class="word-card" data-id="siedemset" onclick="showPopup(this)">siedemset</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>800</td>
+                        <td>
+                            <div class="word-card" data-id="osiemset" onclick="showPopup(this)">osiemset</strong>
+                        </td>
+                        <td>900</td>
+                        <td>
+                            <div class="word-card" data-id="dziewięćset" onclick="showPopup(this)">dziewięćset</strong>
+                        </td>
+                        <td>1000</td>
+                        <td>
+                            <div class="word-card" data-id="tysiąc" onclick="showPopup(this)">tysiąc</strong>
+                        </td>
+                    </tr>
+                </table>
+                <p>➡️ С 5 и выше <b>существительное идёт в родительном падеже множественного числа</b>:</p>
+                <div class="left">
+                    <p><em>📌 Mam trzy książki.</em> — У меня три книги.</p>
+                    <p><em>📌 Mam pięć książek.</em> — У меня пять книг.</p>
+                </div>
+                <h4><a href="https://propolski.com/2019/08/31/polskie-liczebniki-glowne/" target="_blank">Как выучить количественные числительные в польском языке >></a></h4>
+            </div>
+            <!-- end Количественные числительные (liczebniki główne) -->
+            <!-- Порядковые (liczebniki porządkowe) -->
+            <div class="blockZadanie" id="porządkowe">
+                <h3 class="text">2️⃣ Порядковые (liczebniki porządkowe)</h3>
+                <p>Склоняются как прилагательные, <b>согласуются по роду и падежу</b>:</p>
+                <table>
+                    <tr>
+                        <th>numer</th>
+                        <th>liczebnik</th>
+                    </tr>
+                    <tr>
+                        <td>1-й</td>
+                        <td>pierwszy / pierwsza / pierwsze</td>
+                    </tr>
+                    <tr>
+                        <td>2-й</td>
+                        <td>drugi / druga / drugie</td>
+                    </tr>
+                    <tr>
+                        <td>3-й</td>
+                        <td> trzeci / trzecia / trzecie</td>
+                    </tr>
+                    <tr>
+                        <td>4-й</td>
+                        <td>czwarty / czwarta / czwarte</td>
+                    </tr>
+                </table>
+                <p>📌 To jest mój drugi dom. — Это мой второй дом.</p>
+            </div>
+            <!-- end  Порядковые (liczebniki porządkowe) -->
+            <!-- Дробные (ułamkowe) -->
+            <div class="blockZadanie" id="ułamkowe">
+                <h3>3️⃣ Дробные (ułamkowe)</h3>
+                <ul class="left">
+                    <li><b>pół</b> — половина</li>
+                    <li><b>jedna druga</b> — одна вторая</li>
+                    <li><b>trzy czwarte</b> — три четверти</li>
+                </ul>
+                <p class="left">📌 Zjadłem pół ciastka. — Я съел пол печенья.</p>
+            </div>
+            <!-- end Дробные (ułamkowe) -->
+            <!-- Собирательные (zbiorowe) -->
+            <div class="blockZadanie" id="zbiorowe">
+                <h3>4️⃣ Собирательные (zbiorowe)</h3>
+                <p>Используются с: <br>
+                    детьми, людьми обоих полов, существами муж. рода неодуш. и со словами типа "dziecko", "ludzie",
+                    "rodzeństwo"
+                </p>
+                <table>
+                    <tr>
+                        <th>numer</th>
+                        <th>forma</th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>dwoje</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>troje</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>czworo</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>pięcioro</td>
+                    </tr>
+                </table>
+                <p class="left">📌 Mam dwoje dzieci. — У меня двое детей.</p>
+            </div>
+            <!-- end  Собирательные (zbiorowe) -->
+            <!-- Неопределённые (nieokreślone) -->
+            <div class="blockZadanie" id="nieokreślone">
+                <h3>5️⃣ Неопределённые (nieokreślone)</h3>
+                <ul class="left">
+                    <li>kilka — несколько</li>
+                    <li>wiele — много</li>
+                    <li>trochę — немного</li>
+                    <li>dużo — много</li>
+                    <li>mało — мало</li>
+                </ul> 
+                <p class="left">📌 Mam wiele książek. — У меня много книг.</p>
+            </div>
+            <!-- end  Неопределённые (nieokreślone) -->
+
+
+
+
+
+            <!-- Универсальный модальный блок (один на всю страницу): -->
+            <div id="popupOverlay" class="info-overlay" onclick="hidePopup()">
+                <div class="info-box" onclick="event.stopPropagation();">
+                    <p><strong id="popupWord"></strong> — <strong id="popupTranslation"></strong></p>
+                    <p id="popupDetails"></p>
+                    <p><em id="popupSentence"></em></p>
+                    <img id="popupImage" src="" />
+                    <!-- ✅ ЭТО И ЕСТЬ ПРАВИЛЬНАЯ ССЫЛКА -->
+                    <p><a id="popupLink" href="" target="_blank" rel="noopener noreferrer"></a></p>
+                </div>
+                <audio id="popupAudio"></audio>
+            </div>
+            <!-- end  Универсальный модальный блок-->
+
+
+        </main>
+    </div>
+    <script>
+        const scrollBtn = document.getElementById("scrollTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        scrollBtn.addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+    <script src="./../../script.js"></script>
+    <script src="../../wyborOtweta.js"></script>
+    <script src="./wordLiczebniki.js"></script>
+</body>
+
+</html>
