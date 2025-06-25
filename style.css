@@ -669,5 +669,17 @@ td,th{
    /*  */
    .audio{
       cursor: pointer;
+
+   }
+   /* RAMKA SŁOWO */
+   .ramka{
+      width: 200px;
+      height: 100px;
+      margin: 2%;
       
    }
+   .ramka>img{
+      width: 98%;
+      border-radius: 20%;
+   }
+
