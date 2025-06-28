@@ -36,6 +36,11 @@ header ul{
    flex-wrap: wrap;
 }
 /* ========= MAIN =============== */
+.box{
+   border: 2px solid gray;
+   padding: 1%;
+   border-radius: 5%;
+}
 .main{
    max-width: 1200px;
     display: flex;
