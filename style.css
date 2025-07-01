@@ -687,4 +687,11 @@ td,th{
       width: 98%;
       border-radius: 20%;
    }
+   .audio{
+      display: flex;
+      align-items: center;
+      font-style: italic;
+      color: crimson;
+      gap: 1%;
+   }
 
