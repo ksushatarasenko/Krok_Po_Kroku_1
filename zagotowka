@@ -61,6 +61,16 @@
         style="width: 10%;" data-audio="audio/Jutro rano.mp3" onclick="playAudio(this)">
     <audio id="audioPlayer"></audio>
 </div>
+
+<p class="audio">
+    <span> Исполнения желаний! - </span>
+    <span class="violet p18">Spełnienia marzeń!</span>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXjTnNG67uBPy0X3G6bmgEbf8xqubfNHOATA&s" alt="audio"
+        style="width: 5%;" data-audio="./audio21/Spełnienia marzeń.mp3" onclick="playAudios(this)">
+    <audio id="audioPlayer"></audio>
+</p>
+
+
 <!-- ż -->
 <!-- &nbsp;  probel -->
 
