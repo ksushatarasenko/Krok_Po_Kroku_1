@@ -1,281 +1,318 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-body{
+body {
    padding: 2%;
 }
-.wrapper{
-    max-width: 1400px;
-    margin: 0 auto;
+
+.wrapper {
+   max-width: 1400px;
+   margin: 0 auto;
 
 }
+
 /* ====== HEADER ================ */
-header{
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: rgb(182, 100, 237);
-    margin-bottom: 2%;
-}
-header ul{
-    display: flex;
-    gap: 4%;
-    padding: 2%;
-    list-style-type: none;
+header {
+   display: flex;
+   justify-content: space-around;
+   height: 100px;
+   background-color: rgb(182, 100, 237);
+   margin-bottom: 2%;
 }
 
-.li a{
-    font-size: 24px;
-    color:bisque;
+header ul {
+   display: flex;
+   gap: 4%;
+   padding: 2%;
+   list-style-type: none;
 }
-.ulhead{
+
+.li a {
+   font-size: 24px;
+   color: bisque;
+}
+
+.ulhead {
    display: flex;
    flex-wrap: wrap;
 }
+
 /* ========= MAIN =============== */
-.box{
+.box {
    border: 2px solid gray;
    padding: 1%;
    border-radius: 5%;
 }
-.main{
+
+.main {
    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   margin: 0 auto;
 }
 
-.section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.zmist{
-    text-align: left;
-    margin: 5%;
+.section {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
+.zmist {
+   text-align: left;
+   margin: 5%;
+}
 
 
-.blockZadanie{
+
+.blockZadanie {
    width: 95%;
    border: 1px solid gray;
    padding: 1%;
    margin: 15px 0;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* небольшая тень */
-   transition: transform 0.3s ease, box-shadow 0.3s ease; /* плавные переходы */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   /* небольшая тень */
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   /* плавные переходы */
    border-top: 2px solid coral;
 }
 
 /* =========== List Lesson ============== */
- .liLesson a{
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: rgb(16, 66, 66);
-   
- }
- .liLesson{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
- }
- 
- .checkbox{
-    margin-left: 10px;
-    width: 20px;
-    height: 20px;
- }
- .selected{
-   text-decoration: underline;
-   color: blue;
- }
- /* ======================== */
+.liLesson a {
+   font-size: 20px;
+   font-weight: 400;
+   text-decoration: none;
+   color: rgb(16, 66, 66);
 
- .two{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: 0 auto;
-    margin-left: 3%;
- }
- .two iframe{
-  width: 100%;
-  height: 100%;
 }
 
- .three{
-    display: flex;
-    align-items: center!important;
-    gap: 1px;
-    padding: 1%;
-    width: 100%;
- }
- .three img{
-    width: 100%;  
- }
- .three p{
-   width: 100%;
- }
- .three div{
-   width: 100%;
- }
- hr{
-   border: none;          /* Убираем стандартное оформление */
-   height: 2px;           /* Толщина линии */
-   background-color: rgb(115, 103, 103); /* Цвет линии */
-   margin: 1.5%;
- }
+.liLesson {
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+}
 
- 
- /* ===== FOOTER ========= */
- footer{
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    background-color: cornflowerblue;
- }
- /* ========= PREZENTATION ============ */
-.prezent ,
+.checkbox {
+   margin-left: 10px;
+   width: 20px;
+   height: 20px;
+}
+
+.selected {
+   text-decoration: underline;
+   color: blue;
+}
+
+/* ======================== */
+
+.two {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   margin: 0 auto;
+   margin-left: 3%;
+}
+
+.two iframe {
+   width: 100%;
+   height: 100%;
+}
+
+.three {
+   display: flex;
+   align-items: center !important;
+   gap: 1px;
+   padding: 1%;
+   width: 100%;
+}
+
+.three img {
+   width: 100%;
+}
+
+.three p {
+   width: 100%;
+}
+
+.three div {
+   width: 100%;
+}
+
+hr {
+   border: none;
+   /* Убираем стандартное оформление */
+   height: 2px;
+   /* Толщина линии */
+   background-color: rgb(115, 103, 103);
+   /* Цвет линии */
+   margin: 1.5%;
+}
+
+
+/* ===== FOOTER ========= */
+footer {
+   display: flex;
+   justify-content: space-around;
+   height: 100px;
+   background-color: cornflowerblue;
+}
+
+/* ========= PREZENTATION ============ */
+.prezent,
 .video {
-    width: 80%;
-    height: 40em;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    margin: 0 auto;
+   width: 80%;
+   height: 40em;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   margin: 0 auto;
 }
 
 .prezent iframe,
 .video iframe {
-    width: 100%;
-    height: 90%;
+   width: 100%;
+   height: 90%;
 }
+
 .video video {
    width: 100%;
    height: 90%;
 }
 
-.vid{
+.vid {
    display: flex;
    justify-content: center;
    padding: 5px;
    flex-direction: column;
 }
-.vid iframe{
+
+.vid iframe {
    width: 600px;
    height: 350px;
 }
+
 @media (max-width: 1200px) {
-   .prezent ,
-   .video  {
-      width: 900px; 
+
+   .prezent,
+   .video {
+      width: 900px;
       height: 500px;
    }
-   .main{
+
+   .main {
       width: 80%;
       margin: 0 auto;
    }
 
-   .two, .three {
+   .two,
+   .three {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
    }
-   .zagolovok{
+
+   .zagolovok {
       width: 95%;
    }
-   
+
 }
 
 @media (max-width: 768px) {
-   
-   .prezent ,
-   .video  {
-      width: 400px; 
+
+   .prezent,
+   .video {
+      width: 400px;
       height: 250px;
    }
 
-   .two, .three {
+   .two,
+   .three {
       display: flex;
       flex-direction: column;
       align-items: center;
    }
-   .two img, .three img{
+
+   .two img,
+   .three img {
       width: 90%;
    }
 }
+
 /* ============== */
 
-.img{
+.img {
    max-width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   
+
 }
+
 /* infobox */
-.imageTwo{
+.imageTwo {
    display: flex;
    width: 90%;
    justify-content: space-evenly;
    cursor: pointer;
    display: inline-block;
 }
-.info-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: rgba(0, 0, 0, 0.5);
-      justify-content: center;
-      align-items: center;
-      z-index: 999;
-    }
 
-    .info-box {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.3);
-      max-width: 600px;
-      text-align: center;
-    }
+.info-overlay {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background: rgba(0, 0, 0, 0.5);
+   justify-content: center;
+   align-items: center;
+   z-index: 999;
+}
+
+.info-box {
+   background: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+   max-width: 600px;
+   text-align: center;
+}
 
 .info-box p {
-    margin-bottom: 10px;
-    font-size: 18px;
-    line-height: 1.4;
-  }
+   margin-bottom: 10px;
+   font-size: 18px;
+   line-height: 1.4;
+}
 
-  .info-box strong {
-    color: #0077cc; /* Цвет ключевых слов */
-    font-size: 18px;
-  }
+.info-box strong {
+   color: #0077cc;
+   /* Цвет ключевых слов */
+   font-size: 18px;
+}
 
-  .info-box em {
-    color: #d90505;
-    font-style: italic;
-    font-size: 22px;
-  }
+.info-box em {
+   color: #d90505;
+   font-style: italic;
+   font-size: 22px;
+}
 
-  #popupImage {
-    width: 420px; /* размер картинки */
-    max-width: 100%;
-    height: auto;
-    margin-top: 12px;
-    border-radius: 8px;
-  }
+#popupImage {
+   width: 420px;
+   /* размер картинки */
+   max-width: 100%;
+   height: auto;
+   margin-top: 12px;
+   border-radius: 8px;
+}
+
 /*  */
-.image img{
+.image img {
    width: 80%;
    display: flex;
    flex-direction: column;
@@ -283,13 +320,14 @@ header ul{
    align-items: center; */
    margin: 0 auto;
 }
+
 /* table */
-table img{
+table img {
    width: 80%;
 }
 
 /* ======= IMAGE ========= */
-.image{
+.image {
    width: 100%;
    /* height: 800px; */
    margin: 5px auto;
@@ -298,76 +336,87 @@ table img{
    align-items: center;
    flex-direction: column;
 }
-.image iframe{
+
+.image iframe {
    width: 100%;
    height: 100%;
 }
 
- 
+
 /* answer */
 .answer {
-    display: none;
+   display: none;
 }
 
 .question button {
-    margin-top: 10px;
+   margin-top: 10px;
 }
-.answ{
-    padding: 0.5%;
-    background-color: rgb(234, 241, 100);
+
+.answ {
+   padding: 0.5%;
+   background-color: rgb(234, 241, 100);
 }
+
 /* ZADANIE */
-.zadanie{
+.zadanie {
    width: 100%;
    padding: 1%;
    font-size: 28px;
    color: rgb(60, 4, 60);
    display: flex;
    gap: 5%;
-   justify-content:center;
+   justify-content: center;
 }
 
-.zadanie select{
+.zadanie select {
    background-color: rgb(194, 192, 192);
    padding: 0.5%;
 }
 
-.question-set{
+.question-set {
    width: 100%;
    margin: 0 auto;
 }
-.vopros{
+
+.vopros {
    font-weight: 800;
    margin-bottom: 3%;
 }
-label{
+
+label {
    margin-right: 2%;
 }
-.line{
+
+.line {
    width: 200px;
 }
-.line_1{
+
+.line_1 {
    width: 100px;
    font-size: 16px;
    color: blue;
    font-weight: 900;
    font-style: italic;
 }
-.line_5{
+
+.line_5 {
    width: 30px;
    font-size: 20px;
 }
-.line_6{
+
+.line_6 {
    width: 50px;
    font-size: 20px;
 }
-.line_7{
+
+.line_7 {
    width: 400px;
    font-size: 16px;
    color: blue;
    font-style: italic;
 }
-.line_8{
+
+.line_8 {
    width: 600px;
    font-size: 16px;
    color: blue;
@@ -377,7 +426,7 @@ label{
 }
 
 /* div flex */
-.colors{
+.colors {
    display: flex;
    width: 100%;
    gap: 2px;
@@ -385,7 +434,7 @@ label{
    align-items: flex-end;
 }
 
-button{
+button {
    background-color: aquamarine;
    font-size: 18px;
    margin: 3% 3%;
@@ -393,6 +442,7 @@ button{
    width: 120px;
    height: 30px;
 }
+
 .correct {
    color: green;
    /* color: white; */
@@ -402,14 +452,16 @@ button{
    color: red;
    /* color: white; */
 }
+
 .word {
-    cursor: pointer;
+   cursor: pointer;
 }
 
 .word.strikethrough-blue {
-    text-decoration: line-through;
-    color: blue;
+   text-decoration: line-through;
+   color: blue;
 }
+
 /* wybor neprawilnogo otweta */
 .options {
    display: grid;
@@ -425,9 +477,10 @@ button{
 .option {
    cursor: pointer;
    margin-top: 10px;
-   font-size: 18px; 
+   font-size: 18px;
 }
-.boxRadio{
+
+.boxRadio {
    margin-left: 20%;
    width: 50%;
    text-align: right;
@@ -436,30 +489,39 @@ button{
    gap: 15px;
    text-align: center;
 }
+
 select {
-   font-size: 16px; 
+   font-size: 16px;
    border-radius: 10px;
    color: rgb(81, 79, 79);
    padding: 1px;
 }
+
 .option.selected {
-   background-color: #cce5ff; /* светло-синий */
+   background-color: #cce5ff;
+   /* светло-синий */
 }
 
 .option.correct {
-   background-color: #d4edda; /* зелёный */
+   background-color: #d4edda;
+   /* зелёный */
 }
 
 .option.incorrect {
-   background-color: #f8d7da; /* красный */
+   background-color: #f8d7da;
+   /* красный */
 }
+
 /* end */
-ol,ul{
+ol,
+ul {
    line-height: 1.5;
 }
-li{
+
+li {
    font-size: 18px;
 }
+
 .selected {
    text-decoration: underline;
 }
@@ -474,11 +536,12 @@ li{
    text-align: center;
 } */
 
-.chek{
+.chek {
    width: 150px;
    text-align: center;
    padding: 2px;
 }
+
 /* end interactive */
 /* radio label */
 .task {
@@ -487,10 +550,12 @@ li{
    /* display: flex;
    justify-content: space-evenly; */
 }
+
 .task img {
    display: block;
    margin-bottom: 10px;
-   width: 100%; /* Примерный размер, можете изменить */
+   width: 100%;
+   /* Примерный размер, можете изменить */
    height: auto;
 }
 
@@ -556,18 +621,22 @@ li{
    overflow: hidden;
    transition: max-height 0.6s ease-in-out, padding 0.3s ease-in-out;
    padding: 0 2px 0 2px;
-   opacity: 0; /* Для плавного появления и исчезновения текста */
+   opacity: 0;
+   /* Для плавного появления и исчезновения текста */
    transition: opacity 0.3s ease-in-out, max-height 0.6s ease-in-out, padding 0.6s ease-in-out;
 }
-.hint2-content p{
+
+.hint2-content p {
    font-size: 18px;
 }
 
 /* Раскрытие блока */
 .hint2-container.active .hint2-content {
    padding: 0 2px 5px 2px;
-   max-height: 1000px; /* Достаточно для раскрытия текста */
-   opacity: 1; /* Плавное появление */
+   max-height: 1000px;
+   /* Достаточно для раскрытия текста */
+   opacity: 1;
+   /* Плавное появление */
    max-width: 100%;
 }
 
@@ -583,10 +652,11 @@ li{
 }
 
 /* ---------- END POKAZ OTWETA OPTIMA ------------------ */
-.left{
+.left {
    margin-left: 10%;
 }
-.pravilo{
+
+.pravilo {
    padding: 1%;
    margin: 0 auto;
    margin-top: 3%;
@@ -602,34 +672,47 @@ li{
    border: 1px solid #ccc;
    border-radius: 8px;
    background-color: #f9f9f9;
- }
+}
+
 .result span.correct {
    background-color: transparent;
    color: rgb(58, 122, 43);
    font-size: 20px;
- }
- 
- .result span.incorrect {
-   background-color: #ffe6e6; /* нежно-красный фон */
+}
+
+.result span.incorrect {
+   background-color: #ffe6e6;
+   /* нежно-красный фон */
    color: red;
    font-weight: bold;
- }
+}
 
-textarea { width: 60%; height: 150px; margin-top: 10px;font-size: 18px;padding: 2%; }
-button { margin-top: 10px; }
+textarea {
+   width: 60%;
+   height: 150px;
+   margin-top: 10px;
+   font-size: 18px;
+   padding: 2%;
+}
+
+button {
+   margin-top: 10px;
+}
+
 /* end TEXTERIA */
 
 /* WORD */
-.word-card{
-  cursor: pointer;
+.word-card {
+   cursor: pointer;
 }
+
 /* Icons */
-.icone{
+.icone {
    width: 26px;
 }
 
 /* TABLE */
-table{
+table {
    width: 98%;
    margin: 2% auto;
    text-align: center;
@@ -638,11 +721,14 @@ table{
    padding: 0.5%;
    border-collapse: collapse;
 }
-td,th{
+
+td,
+th {
    border: 1px solid black;
    padding: 0.5%;
 }
-.temat{
+
+.temat {
    width: 200px;
 }
 
@@ -651,47 +737,63 @@ td,th{
 /* strelka */
 
 #scrollTopBtn {
-      position: fixed;
-      bottom: 20px;
-      right: -25px;
-      display: none;
-      z-index: 100;
-      background-color: #333;
-      color: white;
-      border: none;
-      padding: 5px 15px;
-      border-radius: 50%;
-      font-size: 20px;
-      width: 50px;
-      cursor: pointer;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-    }
+   position: fixed;
+   bottom: 20px;
+   right: -25px;
+   display: none;
+   z-index: 100;
+   background-color: #333;
+   color: white;
+   border: none;
+   padding: 5px 15px;
+   border-radius: 50%;
+   font-size: 20px;
+   width: 50px;
+   cursor: pointer;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
 
-    #scrollTopBtn:hover {
-      background-color: #555;
-    }
+#scrollTopBtn:hover {
+   background-color: #555;
+}
 
-   /*  */
-   .audio{
-      cursor: pointer;
+/*  */
+.audio {
+   cursor: pointer;
 
-   }
-   /* RAMKA SŁOWO */
-   .ramka{
-      width: 200px;
-      height: 100px;
-      margin: 2%;
-      
-   }
-   .ramka>img{
-      width: 98%;
-      border-radius: 20%;
-   }
-   .audio{
-      display: flex;
-      align-items: center;
-      font-style: italic;
-      color: crimson;
-      gap: 1%;
-   }
+}
 
+/* RAMKA SŁOWO */
+.ramka {
+   width: 200px;
+   height: 100px;
+   margin: 2%;
+
+}
+
+.ramka>img {
+   width: 98%;
+   border-radius: 20%;
+}
+
+.audio {
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   color: crimson;
+   gap: 1%;
+
+}
+
+.box {
+   border-left: 2px solid gray;
+   border-top: none;
+   border-right: none;
+   border-bottom: none;
+   padding: 1%;
+
+}
+
+.box>p {
+   line-height: 0.8;
+}
