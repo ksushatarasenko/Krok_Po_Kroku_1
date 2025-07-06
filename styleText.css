@@ -85,7 +85,12 @@ p{
    font-weight: 900;
    color: blue;
 }
-
+.centr{
+   font-size: 20px;
+   padding: 2%;
+   text-align: center;
+   margin-top: -2%;
+}
 
 .slowa{
    width: 70%;
