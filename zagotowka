@@ -1,28 +1,17 @@
 ż
 
-<!-- pole dla wpisania -->
+<!-- DIALOG -->
 
-<div class="question-set" id="set2">
-    <div class="dialog italic ">
-        <div class="colors">
-            <p>- zielona, ale też niebieska jak woda i żółta jak słonce. => <span class="blue">lato</span></p>
-        </div>
-        <div class="colors">
-            <p>- bardzo zielona, ale też różowa, żółta, biała jak kwiaty. => <input type="text" data-answer="lubię"
-                    class="line_1"></p>
-        </div>
-    </div>
-</div>
-<div class="flex">
-    <button onclick="checkAnswers('set6')">Sprawdź</button>
-    <div class="hint2-container" onclick="toggleHint2(this)">
-        <div class="hint2-header"></div>
-        <div class="hint2-content">
-            <div class="image" style="width: 90%;">
-                <img src="https://1drv.ms/i/s!Av5Voug-ar1Tgoxo7xSWpTSXlwcyUg?embed=1&width=1078&height=498"
-                    alt="otwet203A4_1">
-            </div>
-        </div>
+<div class="image">
+    <h6>Dialog</h6>
+    <audio src="./audio19/dialog3.mp3" controls></audio>
+    <div class="dialog">
+        <p><span class="biruza"></span></p>
+        <p><span class="biruza"></span></p>
+        <p><span class="biruza"></span></p>
+        <p><span class="biruza"></span></p>
+        <p><span class="biruza"></span></p>
+        <p><span class="biruza"></span></p>
     </div>
 </div>
 <!-- OTWET -->
@@ -72,37 +61,42 @@
 
 
 <!-- ż -->
-<!-- &nbsp;  probel -->
+<!-- TABLE -->
 
-<h3 class="italic "> <span class="coral">Toru</span> | <span class="coral">Lukas</span> | <span
-        class="coral">Sophie</span> | <span class="coral">Maja</span></h3>
+<table>
+    <tr>
+        <th>🧭 a) Локализация — Где?</th>
+        <th>⏰ b) Время — Когда?</th>
+        <th>🎯 c) Цель (событие, действие)</th>
+        <th>🔑 d) Предлоги, которые требуют мест. падеж:</th>
+    </tr>
+    <tr>
+        <td>w Polsce (в Польше) 🇵🇱</td>
+        <td>w zimie (зимой) ❄️</td>
+        <td>na filmie (на фильме) 🎬</td>
+        <td>w (в)</td>
+    </tr>
+    <tr>
+        <td>na stole (на столе) 🍽️</td>
+        <td>w styczniu (в январе) 📅</td>
+        <td>na imprezie (на вечеринке) 🎉</td>
+        <td>na (на)</td>
+    </tr>
+    <tr>
+        <td>przy tablicy (у доски) 🧑‍🏫</td>
+        <td>w zeszłym tygodniu (на прошлой неделе)</td>
+        <td>na obiedzie (на обеде) 🍽️</td>
+        <td>przy (у)</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>o ósmej (в восемь часов) 🕗</td>
+        <td></td>
+        <td>o (о) / po (после)</td>
+    </tr>
+</table>
 
-<!-- wybor Otweta -->
 
-<div>
-    <div class="questions">
-        <div class="two_1">
-            <div>
-                <div>
-                    <div class="options italic blue">
-                        <div class="option" data-index="0">a. nowy | </div>
-                        <div class="option" data-index="1" style="text-decoration: underline;">
-                            &nbsp;niebieski | </div>
-                        <div class="option" data-index="2">&nbsp;stary </div>
-                    </div>
-                </div>
-                <div class="question" data-correct="2">
-                    <div class="options">
-                        <div class="option" data-index="0">b. zły | </div>
-                        <div class="option" data-index="1"> &nbsp;dobry | </div>
-                        <div class="option" data-index="2">&nbsp;duży </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <button id="checkAnswers">Sprawdź</button>
-</div>
 
 <!-- выбор ответа + вписание слова -->
 <div class="question-set" id="set5">
